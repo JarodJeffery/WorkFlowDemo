@@ -11,7 +11,7 @@ main: $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $@ $(OBJS)
 
 test:
-	chmod +x configure
+	./configure
 	./main
 
 %.o: %.cpp
