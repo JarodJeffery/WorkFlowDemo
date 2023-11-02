@@ -17,6 +17,6 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Configure
-      - run: make
+      run: make
       - name: run
-      - run: ./main
+      run: ./main
