@@ -10,6 +10,10 @@ all: main
 main: $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $@ $(OBJS)
 
+test:
+	chmod +x main
+	./main
+	
 %.o: %.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
