@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: powershell
+    runs-on: cmd
 
     steps:
     - uses: actions/checkout@v3
