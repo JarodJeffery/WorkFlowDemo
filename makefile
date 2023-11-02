@@ -1,8 +1,8 @@
-CXX = g++
-CXXFLAGS = -std=c++11 -Wall
+#CXX = g++
+#CXXFLAGS = -std=c++11 -Wall
 
 # List of object files
-OBJS = main.o
+OBJS = test.o main.o
 
 # Default targetgit add
 all: main
