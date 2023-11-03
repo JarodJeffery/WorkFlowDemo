@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Make
-      run: g++ test.cpp main.cpp
+      run: g++ -o main test.cpp main.cpp
     - name: Run
       run: ./main.out
