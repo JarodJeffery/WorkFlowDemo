@@ -16,4 +16,4 @@ jobs:
     - name: Make
       run: g++ -o main test.cpp main.cpp
     - name: Run
-      run: ./main.out
+      run: ./main
